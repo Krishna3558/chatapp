@@ -11,8 +11,6 @@ function Signup() {
   const [message , setMessage] = useState(null);
   const [loading , setLoading] = useState(false);
 
-  const url = "http://localhost:3000";
-
   const navigate = useNavigate();
 
   const {handleSignup} = useFetch();
