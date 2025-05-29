@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 
 const FetchContext = createContext();
 
-const url = "http://localhost:3000";
+const url = "https://chatapp-bf4k.onrender.com";
 
 const socket = io(url);
 
