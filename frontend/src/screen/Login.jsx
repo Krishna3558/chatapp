@@ -12,8 +12,6 @@ function Login() {
 
   const {handleLogin , online} = useFetch();
 
-  const url = "http://localhost:3000";
-
   const navigate = useNavigate();
 
   const handleSubmit = async(e) => {
