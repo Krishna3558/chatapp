@@ -2,7 +2,6 @@ import React , {useState , useEffect, useRef} from 'react'
 import Navbar from '../components/Navbar'
 import { useFetch } from '../context/Fetching'
 import { FaSearch , FaUser , FaPaperPlane , FaCamera , FaArrowLeft } from 'react-icons/fa';
-import ScrollableFeed from 'react-scrollable-feed'
 import { useNavigate } from 'react-router-dom';
 import Userprofile from '../components/Userprofile';
 
